@@ -45,7 +45,7 @@ All connector config is set via environment variables.
 Includes inbound webhook receiver for event-driven data ingestion.
 
 Live connectors included:
-- OpenWeatherMap (API key auth)
+- wttr.in Weather API (no auth required, live weather data)
 - RestCountries (open data, business intelligence demo)
 
 ### 2. Full RAG Pipeline (Gap 2)
@@ -98,7 +98,6 @@ Turn-by-turn chat UI replacing the goal-submission form.
 | POST | /api/v1/ingest/file | Upload PDF or DOCX for RAG ingestion |
 | POST | /api/v1/ingest/url | Ingest URL for RAG ingestion |
 | POST | /api/v1/chat | Chat endpoint with session memory |
-| GET | /api/v1/session/{id}/history | Retrieve chat history |
 | WebSocket | /ws/execute/{session_id} | Live execution step feed |
 
 ---
