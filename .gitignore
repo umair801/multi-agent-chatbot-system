@@ -1,0 +1,70 @@
+﻿# Node / Frontend
+node_modules/
+.next/
+dist/
+build/
+out/
+.env.local
+.env.*.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python / Backend
+__pycache__/
+*.py[cod]
+*.class
+.venv/
+venv/
+env/
+backend/venv/
+*.egg-info/
+dist/
+build/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+.env.production.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Supabase
+.supabase/
+
+# Testing
+.pytest_cache/
+htmlcov/
+.coverage
+.nyc_output/
+
+# Build artifacts
+*.o
+*.so
+
+# Git
+.git/
+frontend/.git/
+backend/.git/
+
+# Logs
+logs/
+*.log
+
+# OS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# AgAI_24 specific
+backend/app/agents/connectors/__pycache__/
+backend/app/agents/__pycache__/
+test_*.py
