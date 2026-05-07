@@ -6,6 +6,7 @@ a full RAG pipeline, and delivers responses through a conversational chat interf
 
 **Live Demo:** [chatbot.datawebify.com](https://chatbot.datawebify.com)
 **API Docs:** [chatbot.datawebify.com/docs](https://chatbot.datawebify.com/docs)
+**Case Study:** [datawebify.com/projects/agai24-multi-agent-chatbot-system](https://datawebify.com/projects/agai24-multi-agent-chatbot-system)
 **GitHub:** [github.com/umair801/multi-agent-chatbot-system](https://github.com/umair801/multi-agent-chatbot-system)
 
 ---
